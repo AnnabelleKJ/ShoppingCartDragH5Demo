@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="renderer" content="webkit">
+    <link rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <title>购物车拖拽</title>
+</head>
+<body>
+    <ul class="prolist" id="prolist">
+    	<li class="proitem" data-id="001">
+    		<div class="img-wrap"><img src="images/1.png"/></div>
+    		<div class="info-wrap">
+    			<span class="l">java编程思想</span>
+    			<span class="r">$<span class="num">10.0</span></span>
+    		</div>
+    	</li>
+    	<li class="proitem" data-id="002">
+    		<div class="img-wrap"><img src="images/2.jpg"/></div>
+    		<div class="info-wrap">
+    			<span class="l">算法导论</span>
+    			<span class="r">$<span class="num">15.0</span></span>
+    		</div>
+    	</li>
+    	<li class="proitem" data-id="003">
+    		<div class="img-wrap"><img src="images/3.jpg"/></div>
+    		<div class="info-wrap">
+    			<span class="l">C语言程序设计</span>
+    			<span class="r">$<span class="num">20.4</span></span>
+    		</div>
+    	</li>
+    	<li class="proitem" data-id="004">
+    		<div class="img-wrap"><img src="images/4.jpg"/></div>
+    		<div class="info-wrap">
+    			<span class="l">计算机程序的构造和解释</span>
+    			<span class="r">$<span class="num">25.0</span></span>
+    		</div>
+    	</li>
+    </ul>
+    <div class="cartwrap" id="cartwrap">
+    	<table>
+    		<thead>
+    			<tr>
+    				<td class="td01">书名</td>
+    				<td class="td02">数量</td>
+    				<td class="td03">金额($)</td>
+    			</tr>
+    		</thead>
+    		<tbody id="tbody">
+                <tr>
+                    <td colspan="2">总计</td>
+                    <td class="td03">0</td>
+                </tr>
+    		</tbody>
+    	</table>
+    </div>
+    <script src="js/index.js"></script>
+    
+</body>
+
+</html>
